@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dropdown</title>
+<style>
+.Webbutton {
+	background-color: green;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+.WebDevelopLinks {
+	position: relative;
+	display: inline-block;
+}
+.WebLink-content {
+	background-color: yellow;
+	display: none;
+	min-width: 120px;
+	position: absolute;
+	padding: 10px;
+	z-index: 1;
+}
+.WebLink-content a{
+	display: block;
+	padding: 10px 15px ;
+}
+.WebDevelopLinks:hover .WebLink-content{
+	display:block;
+}
+.WebDevelopLinks :hover{background-color:red;}
+.WebLink-content a:hover{
+	background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h1>WebDevelopment</h1>
+<p>
+Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network).
+</p>
+<div class="WebDevelopLinks">
+<button class="Webbutton">Weblinks</button>
+<div class="WebLink-content">
+<a href="https://en.wikipedia.org/wiki/Google_Home">HOME</a>
+<a href="https://www.google.co.in/about/">ABOUT</a>
+<a href="https://www.google.com/contact/">CONTACT</a>
+</div>
+</div>
+<p>For larger organizations and businesses, web development teams can consist of hundreds of people (web developers) and follow standard methods like Agile methodologies while developing websites. Smaller organizations may only require a single permanent or contracting developer, or secondary assignment to related job positions such as a graphic designer or information systems technician. Web development may be a collaborative effort between departments rather than the domain of a designated department.</p>
+</body>
+</html>
